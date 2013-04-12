@@ -1,0 +1,73 @@
+/* TOP */
+QToolBar
+{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0.1 #383734, stop: 1.0 #53514a);
+    border: none;
+    border-top-style: solid; border-top-width: 1px; border-top-color: #41403b;
+    border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #42413c;
+
+}
+
+QToolBar QToolButton
+{
+    margin: 1px;
+    padding: 3px;
+    color: #d4dbc4;
+    border-style: solid; border-width: 1px; border-color: transparent; border-radius: 3px;
+}
+
+QToolBar QToolButton:hover
+{
+    border-style: solid; border-width: 1px; border-color: #343430; border-radius: 3px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #41403b, stop: 1.0 #383734);
+}
+
+QToolBar QToolButton:checked
+{
+    color: white;
+    border-style: solid; border-width: 1px; border-color: #343430; border-radius: 3px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #41403b, stop: 1.0 #383734);
+}
+
+/* BOTTOM */
+QTabBar#categories
+{
+    alignment: center;
+}
+
+QTabBar#categories::tab
+{
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+QTabBar#categories::tab:selected
+{
+    color: white;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #41403b, stop: 1.0 #383734);
+}
+
+/* LEFT */
+PlacesView
+{
+    background-color: #e7e5e4;
+    border:none;
+/*    border-right: 1px solid #dad8d5;*/
+}
+
+Splitter#splitter::handle
+{
+    background-color: #dad8d5;
+}
+
+/* CENTER */
+DetailView
+{
+    alternate-background-color: white;
+    border: none;
+}

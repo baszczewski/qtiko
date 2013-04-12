@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="main.png">icons/main.png</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file alias="shadow.png">images/shadow.png</file>
+        <file alias="play.png">images/play.png</file>
+        <file alias="album.png">images/album.png</file>
+        <file alias="folder.png">images/folder.png</file>
+    </qresource>
+    <qresource prefix="/stylesheets">
+        <file alias="radiance.css">stylesheets/radiance.css</file>
+        <file alias="default.css">stylesheets/default.css</file>
+        <file alias="ambiance.css">stylesheets/ambiance.css</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>database.db</file>
+    </qresource>
+</RCC>

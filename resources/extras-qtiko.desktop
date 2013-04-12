@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Qtiko
+Categories=Audio;Qt;
+Exec=/opt/extras.ubuntu.com/qtiko/bin/qtiko
+GenericName=Music Player
+Comment=Play and organize your music collection
+Icon=/opt/extras.ubuntu.com/qtiko/share/icons/hicolor/64x64/apps/qtiko.png
+Terminal=false
+Type=Application
+MimeType=x-content/audio-player;
+Name[en_US]=qtiko

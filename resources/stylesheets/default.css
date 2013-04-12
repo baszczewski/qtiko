@@ -1,0 +1,29 @@
+/* BOTTOM */
+QTabBar#categories
+{
+    alignment: center;
+}
+
+QTabBar#categories::tab
+{
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+QTabBar#categories::tab:selected
+{
+    color: palette(ButtonText);
+    background: palette(Button);
+    border-style: solid; border-width: 1px; border-color: palette(Dark);
+}
+
+/* LEFT */
+PlacesView
+{
+    border:none;
+    border-right: 1px solid palette(Dark);
+}
